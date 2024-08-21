@@ -1,0 +1,128 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+#section-hero { 
+    background-image: url("images/torshov.jpg");
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-hero { 
+    margin: 0;
+    background-color: #1D3557;
+    width: 220px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 32px;
+    padding: 3px 12px;
+}
+
+.description-hero { 
+    color: #FFFFFF;
+    width: 410px;
+    background-color: #457B9D;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#activity-section { 
+    background-color: #F1FAEE;
+    height: 378px;
+}
+
+.top-activities { 
+    margin: 0;
+    padding-top: 40px;
+    font-size: 24px;
+    color: #1D3557;
+}
+
+.flex-container { 
+   display: flex;
+   justify-content: space-around;   
+}
+
+.flex-1, .flex-2, .flex-3 { 
+    margin-top: 55px;
+}
+
+
+.spot-img { 
+    border-radius: 50%;
+}
+
+.place-name { 
+    color: #1D3557;
+    margin-top: 22px;
+    width: 183px;
+    font-size: 15px;
+}
+
+.place-description { 
+   color: #1D3557;
+   width: 198px;    
+   line-height: 18px;
+}
+
+#guide-section { 
+   background-color: #FFFFFF;
+   height: 394px;
+}
+
+.per-flex { 
+    background-color: #A8DADC;
+    display: flex;
+    width: 400px;
+    height: 300px;
+    margin: 50px auto;
+    border-radius: 10px;
+    border-bottom: solid 5px #1D3557;
+}
+
+.per-img { 
+    height: 248px;
+    width: 180px;
+    margin: auto;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.guide {
+    color: #1D3557;
+    margin-top: 49px;
+    width: 207px;
+    height: 32px;
+}
+
+.experience { 
+    width: 189px;
+    height: 71px;
+    color: #1D3557;
+}
+
+.guide-name { 
+    width: 189px;
+    height: 18px;
+    color: #1D3557;
+}
